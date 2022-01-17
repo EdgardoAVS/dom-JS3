@@ -38,3 +38,14 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+#acceder {
+  background-color: rgb(44, 44, 44);
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px; 
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+}

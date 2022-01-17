@@ -8,10 +8,10 @@ buttonCheck.addEventListener("click", () => {
   const inputNameLC = inputName.value.toLowerCase();
 
   if (inputNameLC == firstNameLowerCase) {
-    document.getElementById("show-data").innerHTML = `Hola, ${firstName} `;
+    document.getElementById("show-data").innerHTML = `Hello, ${firstName} `;
     showData.insertAdjacentHTML(
       "beforeend",
-      `<button id="acceder">Ir a la web</button>`
+      `<button id="acceder">Ir a Twitter</button>`
     );
     document.getElementById("acceder").onclick = acceder;
   } else {
@@ -22,5 +22,5 @@ buttonCheck.addEventListener("click", () => {
 });
 
 function acceder() {
-  window.open("https://www.google.com", "_black");
+  window.open("https://twitter.com/EdgardoAVS", "_black");
 }
